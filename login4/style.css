@@ -20,6 +20,21 @@ body{
         right: 10px;
         font-size: 10px;
       }
+
+.back {
+position: absolute;
+bottom: 10px;
+left: 10px;
+font-size: 15px;
+background: #3caac5;
+color:#fff;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 1rem;
+padding: .8em 35px;
+border: none;
+border-radius: .5em;
+}
 @-webkit-keyframes cube {
     0% {
       -webkit-transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
@@ -91,3 +106,5 @@ body{
       .cube div:nth-of-type(6) {
         -webkit-transform: translateZ(90px);
                 transform: translateZ(90px); }
+
+                

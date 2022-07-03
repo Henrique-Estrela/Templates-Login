@@ -218,3 +218,38 @@ a:hover{
 		justify-content: center;
 	}
 }
+
+ .sign {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+	display: flex;
+  }
+  
+  .back {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 15px;
+	border-radius: 25px;
+	display: block;
+	width: 150px;
+	height: 50px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+  }
+
+  .a{
+	margin-left: 0.5rem;
+  }

@@ -158,3 +158,27 @@ transition:1s;
 #cadastro1{
     display:none;
  }
+
+ .sign {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    bottom: 10px;
+    right: 10px;
+    font-size: 10px;
+  }
+  
+  .back {
+    position: absolute;
+    color: rgb(112, 41, 205);
+    bottom: 10px;
+    left: 10px;
+    font-size: 15px;
+    background: #3866f2;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 35px;
+    border: none;
+    border-radius: .5em;
+  }

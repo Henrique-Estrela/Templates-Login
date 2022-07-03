@@ -198,3 +198,44 @@
    right: -48%;
  }
  }
+
+ .sign {
+  position: absolute;
+  color: rgb(109, 214, 243);
+  bottom: 10px;
+  right: 10px;
+  font-size: 20px;display: flex;
+
+}
+
+.back {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 15px;
+border-radius: 25px;
+display: block;
+width: 150px;
+height: 50px;
+outline: none;
+border: none;
+cursor: pointer;
+color: white;
+border: none;
+font-size: 18px;
+border-radius: 10px;
+transition: 0.4s;
+padding: 12px;
+outline: none;
+background: #800080;
+}
+
+a{
+  margin-left: 0.5rem;
+	color: rgb(21, 162, 201);
+	transition: .3s;
+}
+
+a:hover{
+	color: #385fd3;
+}
