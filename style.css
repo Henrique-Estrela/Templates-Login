@@ -146,5 +146,10 @@ body{
 
 
 #img_topo{
-    width: 8rem;
+    width: 7rem;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  color: #ebebf5;
 }
